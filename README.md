@@ -1,8 +1,14 @@
 # Specification
 
-- Node: 18
-- MongoDB: 7.0
-- Docker: 24.0.6
+- Tools
+    - Node: 18
+    - MongoDB: 7.0
+    - Docker: 24.0.6
+
+- Port
+    - Application port: 3000
+    - Docker port: 8080
+    - MongoDB port: 27017
 
 # How to run this application
 You can use this command to run service and database using Docker Compose:
