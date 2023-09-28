@@ -11,9 +11,9 @@ router.get('/list', async (req, res, next) => {
           .limit(limit * 1)
           .skip((page - 1) * limit)
           .sort({createdDate: 1})
-          .select({"comments": 0, "__v": 0, "email": 0})
+          .select({"email": 0, "comments": 0, "__v": 0})
           .exec();
-    
+
         const count = await Card.count();
     
         res.json({
