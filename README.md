@@ -93,4 +93,22 @@ DELETE /card/delete/{Card ID}
 - When calling an invalid ID will respond to HTTP error status 500 and get error message "message: ID: {Card ID} not found."
 
 
+## Insert data (For test)
+
+API:
+```
+POST /card/insert
+```
+Body:
+```
+{
+    "cardNo": "CN-0001",
+    "title": "นัดสัมภาษณ์งาน",
+    "context": "Test context",
+    "status": "TO_DO",
+    "email": "Test@email.com"
+    "createdBy": "โรบินฮู้ด"
+}
+```
+
 
