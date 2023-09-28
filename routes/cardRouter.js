@@ -38,7 +38,7 @@ router.get('/:id', (req, res, next) => {
     }).select({"__v": 0})
 })
 
-//TODO: delete after test complete
+//API call for create data to test
 router.post('/insert', (req, res, next) => {
   Card.create(req.body, (err, post) => {
         if (err) return next(err);

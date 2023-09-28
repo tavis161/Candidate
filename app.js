@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 
 mongoose.Promise = global.Promise;
 mongoose.set('strictQuery', false);
-mongoose.connect('mongodb+srv://admin:Password@candidates.yjqvo7p.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('mongodb://db:27017')
         .then(() => console.log('connect DB sucessfully'))
         .catch((e) => console.error(err.message))
 
