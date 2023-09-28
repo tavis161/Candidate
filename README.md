@@ -75,7 +75,7 @@ Body:
 - When calling an invalid ID will respond to HTTP error status 500 and get error message "message: ID: {Card ID} not found."
 
 
-##Save card
+## Save card
 
 ![image](https://github.com/tavis161/Candidate/assets/49919136/154958b4-583d-43ba-9e9c-df0b89e1fa94)
 
